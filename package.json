@@ -1,8 +1,7 @@
 {
 	"name": "ob-kb-percent",
-	"version": "5.2.1",
-
-	"devDependencies" : {
+	"version": "5.2.2",
+	"devDependencies": {
 		"numeral": "^1.5.3"
 	}
 }
