@@ -14,7 +14,7 @@ module.controller('PercentController', function($scope, Private) {
     		for (var i = 0; i < tableGroups.tables.length; i++) {
     			const table = tableGroups.tables[i];
     			for (var j = 0; j < table.rows.length; j++) {
-    				const row = table.rows[j];		
+    				const row = table.rows[j];
 	        		const bucketName = row[0];
 	    	    	const bucketValue = row[1];
 		        	if (bucketName.toString() === params.namedBucket) {
